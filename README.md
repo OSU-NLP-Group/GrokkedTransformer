@@ -2,7 +2,7 @@
 
 >We study whether transformers can learn to implicitly reason over parametric knowledge, a skill that even the most capable language models struggle with. Focusing on two representative reasoning types, composition and comparison, we consistently find that transformers can learn implicit reasoning, but only through grokking, i.e., extended training far beyond overfitting. The levels of generalization also vary across reasoning types: when faced with out-of-distribution examples, transformers fail to systematically generalize for composition but succeed for comparison. We delve into the model's internals throughout training, conducting analytical experiments that reveal: 1) the mechanism behind grokking, such as the formation of the generalizing circuit and its relation to the relative efficiency of generalizing and memorizing circuits, and 2) the connection between systematicity and the configuration of the generalizing circuit. Our findings guide data and training setup to better induce implicit reasoning and suggest potential improvements to the transformer architecture, such as encouraging cross-layer knowledge sharing. Furthermore, we demonstrate that for a challenging reasoning task with a large search space, GPT-4-Turbo and Gemini-1.5-Pro based on non-parametric memory fail badly regardless of prompting styles or retrieval augmentation, while a fully grokked transformer can achieve near-perfect accuracy, showcasing the power of parametric memory for complex reasoning.
 
-<img width="650" alt="image" src="assets/1.png">
+<img width="750" alt="image" src="assets/1.png">
 
 
 ### File Structure
@@ -35,7 +35,7 @@ cd ..
 ```
 
 ### Data Preparation
-- Download from [link](https://drive.google.com/file/d/1mEeirceeQJJYHp_tYBjY3cN7AjOokfsJ/view?usp=sharing) and unzip into data/, or alternatively, run {composition/comparison/complex_reasoning}.ipynb to generate the data
+- Download from [link](https://drive.google.com/file/d/1mEeirceeQJJYHp_tYBjY3cN7AjOokfsJ/view?usp=sharing) and unzip into data/, or alternatively, run ```{composition/comparison/complex_reasoning}.ipynb``` to generate the data
 - Download from [link](https://drive.google.com/file/d/1VTSRrXVkz15kh1icEbFLrjyisbqouAiI/view?usp=sharing) and unzip into LLM/
 
 ### Model Training
