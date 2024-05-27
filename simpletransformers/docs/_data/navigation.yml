@@ -1,0 +1,215 @@
+# example navigation
+foo:
+  - title: "Parent Link 1"
+    url: /parent-1-page-url/
+    children:
+      - title: "Child Link 1"
+        url: /child-1-page-url/
+      - title: "Child Link 2"
+        url: /child-2-page-url/
+  - title: "Parent Link 2"
+    url: /parent-2-page-url/
+    children:
+      - title: "Child Link 1"
+        url: /child-1-page-url/
+      - title: "Child Link 2"
+        url: /child-2-page-url/
+      - title: "Child Link 3"
+        url: /child-3-page-url/
+
+
+# main links
+main:
+  - title: "Documentation"
+    url: /docs/installation/
+  - title: "Tutorials"
+    url: /tutorials/
+  - title: "About"
+    url: /about/
+
+
+
+# documentation links
+docs:
+  - title: Getting Started
+    children:
+      - title: "Installation"
+        url: /docs/installation/
+      - title: "Upgrading"
+        url: /docs/upgrading/
+      - title: "General Usage"
+        url: /docs/usage/
+      - title: "Tips and Tricks"
+        url: /docs/tips-and-tricks/
+  - title: Text Classification
+    children:
+      - title: "Classification Specifics"
+        url: /docs/classification-specifics/
+      - title: "Classification Models"
+        url: /docs/classification-models/
+      - title: "Data Formats"
+        url: /docs/classification-data-formats/
+      - title: "Binary Classification"
+        url: /docs/binary-classification/
+      - title: "Multi-Class Classification"
+        url: /docs/multi-class-classification/
+      - title: "Regression"
+        url: /docs/regression/
+      - title: "Sentence-pair Classification"
+        url: /docs/sentence-pair-classification/
+      - title: "Multi-Label Classification"
+        url: /docs/multi-label-classification/
+  - title: Named Entity Recognition
+    children:
+      - title: "NER Specifics"
+        url: /docs/ner-specifics/
+      - title: "NER Model"
+        url: /docs/ner-model/
+      - title: "NER Data Formats"
+        url: /docs/ner-data-formats/
+      - title: "NER Minimal Start"
+        url: /docs/ner-minimal-start/
+  - title: Question Answering
+    children:
+      - title: "Question Answering Specifics"
+        url: /docs/qa-specifics/
+      - title: "Question Answering Model"
+        url: /docs/qa-model/
+      - title: "Question Answering Data Formats"
+        url: /docs/qa-data-formats/
+      - title: "Question Answering Minimal Start"
+        url: /docs/qa-minimal-start/
+  - title: Language Modeling
+    children:
+      - title: "Language Modeling Specifics"
+        url: /docs/lm-specifics/
+      - title: "Language Modeling Model"
+        url: /docs/lm-model/
+      - title: "Language Modeling Data Formats"
+        url: /docs/lm-data-formats/
+      - title: "Language Modeling Minimal Start"
+        url: /docs/lm-minimal-start/
+  - title: T5 Model
+    children:
+      - title: "T5 Specifics"
+        url: /docs/t5-specifics/
+      - title: "T5 Model"
+        url: /docs/t5-model/
+      - title: "T5 Data Formats"
+        url: /docs/t5-data-formats/
+      - title: "T5 Minimal Start"
+        url: /docs/t5-minimal-start/
+  - title: Seq2Seq
+    children:
+      - title: "Seq2Seq Specifics"
+        url: /docs/seq2seq-specifics/
+      - title: "Seq2Seq Model"
+        url: /docs/seq2seq-model/
+      - title: "Seq2Seq Data Formats"
+        url: /docs/seq2seq-data-formats/
+      - title: "Seq2Seq Minimal Start"
+        url: /docs/seq2seq-minimal-start/
+  - title: Retrieval
+    children:
+      - title: "Retrieval Specifics"
+        url: /docs/retrieval-specifics/
+      - title: "Retrieval Model"
+        url: /docs/retrieval-model/
+      - title: "Retrieval Data Formats"
+        url: /docs/retrieval-data-formats/
+      - title: "Retrieval Minimal Start"
+        url: /docs/retrieval-minimal-start/
+  - title: Conversational AI
+    children:
+      - title: "Conversational AI Specifics"
+        url: /docs/convAI-specifics/
+      - title: "Conversational AI Model"
+        url: /docs/convAI-model/
+      - title: "Conversational AI Data Formats"
+        url: /docs/convAI-data-formats/
+      - title: "Conversational AI Minimal Start"
+        url: /docs/convAI-minimal-start/
+  - title: Text Representation
+    children:
+      - title: "Text Representation Examples"
+        url: /docs/text-rep-examples/
+      - title: "Text Representation Model"
+        url: /docs/text-rep-model/
+  - title: Language Generation
+    children:
+      - title: "Language Generation Specifics"
+        url: /docs/language-generation-specifics/
+      - title: "Language Generation Model"
+        url: /docs/language-generation-model/
+      - title: "Language Generation Minimal Start"
+        url: /docs/language-generation-minimal-start/
+  - title: Multi-Modal Classification
+    children:
+      - title: "Multi-Modal Classification Specifics"
+        url: /docs/multi-modal-classification-specifics/
+      - title: "Multi-Modal Classification Model"
+        url: /docs/multi-modal-classification-model/
+  - title: Meta
+    children:
+      - title: "History"
+        url: /docs/history/
+      - title: "Contributing"
+        url: /docs/contributing/
+      - title: "Old Documentation"
+        url: /docs/docs-old/
+      - title: "License"
+        url: /docs/license/
+      - title: "Privacy"
+        url: /terms/
+
+
+# portfolio links
+tutorials:
+  - title: Getting Started
+    children:
+      - title: "Baz Boom Identity"
+        url: /blog/baz-boom-identity
+
+
+# sidebar navigation list sample
+sidebar-sample:
+  - title: "Parent Page A"
+    children:
+      - title: "Child Page A1"
+        url: /
+      - title: "Child Page A2"
+        url: /
+      - title: "Child Page A3"
+        url: /
+      - title: "Child Page A4"
+        url: /
+  - title: "Parent Page B"
+    children:
+      - title: "Child Page B1"
+        url: /
+      - title: "Child Page B2"
+        url: /
+      - title: "Child Page B3"
+        url: /
+      - title: "Child Page B4"
+        url: /
+      - title: "Child Page B5"
+        url: /
+  - title: "Parent Page C"
+    children:
+      - title: "Child Page C1"
+        url: /
+      - title: "Child Page C2"
+        url: /
+      - title: "Child Page C3"
+        url: /
+      - title: "Child Page C4"
+        url: /
+      - title: "Child Page C5"
+        url: /
+  - title: "Parent Page D"
+    children:
+      - title: "Child Page D1"
+        url: /
+      - title: "Child Page D2"
+        url: /
