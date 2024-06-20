@@ -35,8 +35,8 @@ cd ..
 ```
 
 ### Data Preparation
-- Download from [link](https://drive.google.com/file/d/1mEeirceeQJJYHp_tYBjY3cN7AjOokfsJ/view?usp=sharing) and unzip into data/, or alternatively, run ```{composition/comparison/complex_reasoning}.ipynb``` to generate the data
-- Download from [link](https://drive.google.com/file/d/1VTSRrXVkz15kh1icEbFLrjyisbqouAiI/view?usp=sharing) and unzip into LLM/
+- Download from [link](https://buckeyemailosu-my.sharepoint.com/:f:/g/personal/wang_13930_buckeyemail_osu_edu/EghpRAb3V71FnQsi44nuAfsB47HZSmmWuxt5DML2hqtM7w?e=TWeYkW) and unzip into data/, or alternatively, run ```{composition/comparison/complex_reasoning}.ipynb``` to generate the data
+- Download from [link](https://buckeyemailosu-my.sharepoint.com/:f:/g/personal/wang_13930_buckeyemail_osu_edu/EiTbt6SLSLhLrJd_kgJJBtIBPerEzHziFVsmn98pP8sSZQ?e=KUaI0d) and unzip into LLM/
 
 ### Model Training
 ```bash
@@ -75,13 +75,14 @@ CUDA_VISIBLE_DEVICES=$GPU python main.py \
 --n_layer $N_LAYERS
 ```
 
+- Pretrained model checkpoints could be downloaded from [here](https://buckeyemailosu-my.sharepoint.com/:f:/g/personal/wang_13930_buckeyemail_osu_edu/EtXABU00W65KvWZ4hqKaq6kB7cag7Gi5UUoXH5qMb9AdTg?e=o73sqm), where the directories are named by "<dataset_name>\_<weight_decay>\_<num_layers>" and contain downsampled checkpoints (full checkpoints are too large to upload) during training, labeled by "checkpoint-<training_step>/".
+
 ### Evaluation
-- For model checkpoints:
 ```bash
 python eval_qa.py --dir <path_to_saved_checkpoints>
 ```
 
-- For LLMs based on non-parametric memory, see ```LLM.ipynb```.
+- For LLMs based on non-parametric memory, the cached evaluation scripts and results are included in ```LLM.ipynb```.
 
 
 ### Logit lens & Causal tracing
