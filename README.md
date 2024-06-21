@@ -75,6 +75,8 @@ CUDA_VISIBLE_DEVICES=$GPU python main.py \
 --n_layer $N_LAYERS
 ```
 
+- For the parameter sharing scheme in Section Appendix E.2, run the above command with ```--n_layer 4``` and ```--add_recurrence``` flag.
+
 - Pretrained model checkpoints could be downloaded from [here](https://buckeyemailosu-my.sharepoint.com/:f:/g/personal/wang_13930_buckeyemail_osu_edu/EtXABU00W65KvWZ4hqKaq6kB7cag7Gi5UUoXH5qMb9AdTg?e=o73sqm), where the directories are named by "<dataset_name>\_<weight_decay>\_<num_layers>" and contain downsampled checkpoints (full checkpoints are too large to upload) during training, labeled by "checkpoint-<training_step>/".
 
 ### Evaluation
