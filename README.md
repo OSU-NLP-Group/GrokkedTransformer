@@ -99,13 +99,11 @@ python causal_tracing_{comparison/composition}.py \
 
 ### Citation
 ```
-@misc{wang2024grokked,
-      title={Grokked Transformers are Implicit Reasoners: A Mechanistic Journey to the Edge of Generalization}, 
-      author={Boshi Wang and Xiang Yue and Yu Su and Huan Sun},
-      year={2024},
-      eprint={2405.15071},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/pdf/2405.15071}
+@inproceedings{wang2024grokked,
+    title={Grokked Transformers are Implicit Reasoners: A Mechanistic Journey to the Edge of Generalization},
+    author={Boshi Wang and Xiang Yue and Yu Su and Huan Sun},
+    booktitle={The Thirty-eighth Annual Conference on Neural Information Processing Systems},
+    year={2024},
+    url={https://arxiv.org/pdf/2405.15071}
 }
 ```
